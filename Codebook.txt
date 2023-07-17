@@ -1,0 +1,448 @@
+Description: Revision of (Revision of (Revision of (Revision of (Revision of (first try for CPS IPUMS first birth)))))
+Samples selected:
+      IPUMS-CPS, June 2018
+            Note: 
+            Density of the full data file:  0.01%
+            Density of your extract: 0.0%
+
+File Type:                    rectangular
+Case Selection:               No
+  Variable                         Columns        Len   06/2018 
+  YEAR                         H   1-4            4     X       
+  SERIAL                       H   5-9            5     X       
+  MONTH                        H  10-11           2     X       
+  HWTFINL                      H  12-21          10     X       
+  CPSID                        H  22-35          14     X       
+  FAMINC                       H  36-38           3     X       
+  PERNUM                       P  39-40           2     X       
+  WTFINL                       P  41-54          14     X       
+  CPSIDP                       P  55-68          14     X       
+  AGE                          P  69-70           2     X       
+  SEX                          P  71              1     X       
+  RACE                         P  72-74           3     X       
+  MOMLOC                       P  75-76           2     X       
+  POPLOC                       P  77-78           2     X       
+  NCHILD                       P  79              1     X       
+  NCHLT5                       P  80              1     X       
+  ELDCH                        P  81-82           2     X       
+  CITIZEN                      P  83              1     X       
+  HISPAN                       P  84-86           3     X       
+  EDUC99                       P  87-88           2     X       
+  SCHLCOLL                     P  89              1     X       
+  FRAGE1                       P  90-92           3     X       
+  FRBIRTHY1                    P  93-96           4     X       
+  FRMARFIRST                   P  97-98           2     X       
+  FRSUPPWT                     P  99-108         10     X       
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+RECTYPE   Record type
+H         Household
+P         Person
+
+MONTH               Month
+01                  January
+02                  February
+03                  March
+04                  April
+05                  May
+06                  June
+07                  July
+08                  August
+09                  September
+10                  October
+11                  November
+12                  December
+
+FAMINC              Family income of householder
+100                 Under $5,000
+110                 Under $1,000
+111                 Under $500
+112                 $500 - 999
+120                 $1,000 - 1,999
+121                 $1,000 - 1,499
+122                 $1,500-1,999
+130                 $2,000 - 2,999
+131                 $2,000 - 2,499
+132                 $2,500 - 2,999
+140                 $3,000 - 3,999
+141                 $3,000 - 3,499
+142                 $3,500 - 3,999
+150                 $4,000 - 4,999
+200                 $5,000 - 7,999
+210                 $5,000 - 7,499
+220                 $5,000 - 5,999
+230                 $6,000 - 7,999
+231                 $6,000 - 7,499
+232                 $6,000 - 6,999
+233                 $7,000 - 7,499
+234                 $7,000 - 7,999
+300                 $7,500 - 9,999
+310                 $7,500 - 7,999
+320                 $8,000 - 8,499
+330                 $8,500 - 8,999
+340                 $8,000 - 8,999
+350                 $9,000 - 9,999
+400                 $10,000 - 14,999
+410                 $10,000 - 10,999
+420                 $11,000 - 11,999
+430                 $10,000 - 12,499
+440                 $10,000 - 11,999
+450                 $12,000 - 12,999
+460                 $12,000 - 14,999
+470                 $12,500 - 14,999
+480                 $13,000 - 13,999
+490                 $14,000 - 14,999
+500                 $15,000 - 19,999
+510                 $15,000 - 15,999
+520                 $16,000 - 16,999
+530                 $17,000 - 17,999
+540                 $15,000 - 17,499
+550                 $17,500 - 19,999
+560                 $18,000 - 19,999
+600                 $20,000 - 24,999
+700                 $25,000 - 49,999
+710                 $25,000 - 29,999
+720                 $30,000 - 34,999
+730                 $35,000 - 39,999
+740                 $40,000 - 49,999
+800                 $50,000 and over
+810                 $50,000 - 74,999
+820                 $50,000 - 59,999
+830                 $60,000 - 74,999
+840                 $75,000 and over
+841                 $75,000 - 99,999
+842                 $100,000 - 149,999
+843                 $150,000 and over
+995                 Missing
+996                 Refused
+997                 Don't know
+999                 Blank
+
+AGE                 Age
+00                  Under 1 year
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+65                  65
+66                  66
+67                  67
+68                  68
+69                  69
+70                  70
+71                  71
+72                  72
+73                  73
+74                  74
+75                  75
+76                  76
+77                  77
+78                  78
+79                  79
+80                  80
+81                  81
+82                  82
+83                  83
+84                  84
+85                  85
+86                  86
+87                  87
+88                  88
+89                  89
+90                  90 (90+, 1988-2002)
+91                  91
+92                  92
+93                  93
+94                  94
+95                  95
+96                  96
+97                  97
+98                  98
+99                  99+
+
+SEX                 Sex
+1                   Male
+2                   Female
+9                   NIU
+
+RACE                Race
+100                 White
+200                 Black
+300                 American Indian/Aleut/Eskimo
+650                 Asian or Pacific Islander
+651                 Asian only
+652                 Hawaiian/Pacific Islander only
+700                 Other (single) race, n.e.c.
+                    Two or more races
+801                 White-Black
+802                 White-American Indian
+803                 White-Asian
+804                 White-Hawaiian/Pacific Islander
+805                 Black-American Indian
+806                 Black-Asian
+807                 Black-Hawaiian/Pacific Islander
+808                 American Indian-Asian
+809                 Asian-Hawaiian/Pacific Islander
+810                 White-Black-American Indian
+811                 White-Black-Asian
+812                 White-American Indian-Asian
+813                 White-Asian-Hawaiian/Pacific Islander
+814                 White-Black-American Indian-Asian
+815                 American Indian-Hawaiian/Pacific Islander
+816                 White-Black--Hawaiian/Pacific Islander
+817                 White-American Indian-Hawaiian/Pacific Islander
+818                 Black-American Indian-Asian
+819                 White-American Indian-Asian-Hawaiian/Pacific Islander
+820                 Two or three races, unspecified
+830                 Four or five races, unspecified
+999                 Blank
+
+NCHILD              Number of own children in household
+0                   0 children present
+1                   1 child present
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+7                   7
+8                   8
+9                   9+
+
+NCHLT5              Number of own children under age 5 in hh
+0                   No children under age 5
+1                   1 child under age 5
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+7                   7
+8                   8
+9                   9+
+
+ELDCH               Age of eldest own child in household
+00                  Less than 1 year old
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+65                  65
+66                  66
+67                  67
+68                  68
+69                  69
+70                  70
+71                  71
+72                  72
+73                  73
+74                  74
+75                  75
+76                  76
+77                  77
+78                  78
+79                  79
+80                  80
+81                  81
+82                  82
+83                  83
+84                  84
+85                  85
+86                  86
+87                  87
+88                  88
+89                  89
+90                  90
+91                  91
+92                  92
+93                  93
+94                  94
+95                  95
+96                  96
+97                  97
+98                  98
+99                  NIU
+
+CITIZEN             Citizenship status
+1                   Born in U.S
+2                   Born in U.S. outlying
+3                   Born abroad of American parents
+4                   Naturalized citizen
+5                   Not a citizen
+9                   NIU
+
+HISPAN              Hispanic origin
+000                 Not Hispanic
+100                 Mexican
+102                 Mexican American
+103                 Mexicano/Mexicana
+104                 Chicano/Chicana
+108                 Mexican (Mexicano)
+109                 Mexicano/Chicano
+200                 Puerto Rican
+300                 Cuban
+400                 Dominican
+500                 Salvadoran
+                    Other Spanish:
+600                 Other Hispanic
+610                 Central/South American
+611                 Central American, (excluding Salvadoran)
+612                 South American
+901                 Do not know
+902                 N/A (and no response 1985-87)
+
+EDUC99              Educational attainment, 1990
+00                  NIU
+01                  No school completed
+04                  1st-4th grade
+05                  5th-8th grade
+06                  9th grade
+07                  10th grade
+08                  11th grade
+09                  12th grade, no diploma
+10                  High school graduate, or GED
+11                  Some college, no degree
+12                  Associate degree, type of program not specified
+13                  Associate degree, occupational program
+14                  Associate degree, academic program
+15                  Bachelors degree
+16                  Masters degree
+17                  Professional degree
+18                  Doctorate degree
+
+SCHLCOLL            School or college attendance
+0                   NIU
+1                   High school full time
+2                   High school part time
+3                   College or university full time
+4                   College or university part time
+5                   Does not attend school, college or university
+
+FRMARFIRST          Living arrangement at first birth
+01                  Married at first birth
+02                  Living with a partner at first birth
+03                  Not married and not living with a partner at first birth
+99                  Not in universe
