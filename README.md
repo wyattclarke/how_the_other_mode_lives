@@ -1,5 +1,7 @@
 # Code for "How the Other Mode Lives: Age of Family Formation in the CPS Fertility Supplement"
 
+https://wyatt-clarke.medium.com/how-the-other-mode-lives-age-of-family-formation-in-the-cps-fertility-supplement-4466de86b57c
+
 ## Motivation: 
 This blog is part of a [larger writing project](https://github.com/wyattclarke/half-baked-ideas-blog/blob/master/_posts/2022-07-22-commune-dreaming.md) to design cooperative living communities that catalyze healthy growth in early adulthood by setting up high-functioning multi-family households that are helped by mentors. The purpose is to provide empirical underpinnings for what I'm writing. 
 
