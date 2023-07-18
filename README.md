@@ -20,6 +20,7 @@ Ancillary goals include reducing incidence of CPS child removal, empowering more
 - `How the Other Mode Lives.ipynb`: Jupyter notebook to recreate blog post
 - `cps_00011.csv.gz`: Data file downloaded from IPUMS CPS. 
 - `Codebook.txt`: Automatically generated explanation of IPUMS CPS variables. Same information is available on IPUMS CPS website
+- `*.jpg`: Plots as stand-alone JPEG files
 
 ## Libraries used:
 - Pandas
